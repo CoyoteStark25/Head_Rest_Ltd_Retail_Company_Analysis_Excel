@@ -1,11 +1,12 @@
 # Head Rest Ltd Retail Company Performance Analysis
-![]( https://github.com/CoyoteStark25/Head_Rest_Ltd_Retail_Company_Analysis_Excel/blob/main/HeadRestBedPic.jpg)
+![HeadRestBedPic](https://github.com/CoyoteStark25/Head_Rest_Ltd_Retail_Company_Analysis_Excel/assets/77941966/2d0151c0-dc3a-443a-af0b-9b5605dc3163)
 
 Our data belongs to a fictional retail company called Head Rest Ltd. Head Rest Ltd. sells beds and sleep-related accessories.The company has several stores, each of which has a home manager.Each store sells four brands of products, including our own brand, Head Rest Beds.Each brand offers products in the categories of mattresses,bed frames, pillows and bed linen Managers earn commissions based on sales and their time in service.
 
 _**Disclaimer**_: All datasets and reports do no represent any company, institution, or country, but just a dummy dataset to demonstrate the capabilities of Power Pivot in Excel.
 
 ## Problem Statement
+
 - Which State had the most sales?
 - which product category had the most sales?
 - which product category had the most YoY Sales Growth?
@@ -34,14 +35,17 @@ The following Power BI Features were incorporated:
 - Manager Dimension Table
 
 ## Modelling
-The Data was manually modelled, it was a hybrid schema.
-![](https://github.com/CoyoteStark25/Head_Rest_Ltd_Retail_Company_Analysis_Excel/blob/main/DataModel.PNG)
+The Data was manually modelled, it was a Star schema.
+![DataModel](https://github.com/CoyoteStark25/Head_Rest_Ltd_Retail_Company_Analysis_Excel/assets/77941966/c1904dde-7b76-4acf-a2f6-32ffeaeb9a32)
 
 ## Visualization
+
 The Report Comprises of 2 Pages:
 ### A Sample of the Business Overview Page
-![](https://github.com/CoyoteStark25/Profit_and_Loss_Report-Power_BI_Project/blob/main/Images/ReportPage1.PNG)
+![Business Overview](https://github.com/CoyoteStark25/Head_Rest_Ltd_Retail_Company_Analysis_Excel/assets/77941966/d86ccf9f-b4d5-459b-9bc4-793d7554cfae)
+
 ### A Sample of the Store Performance Page
+![Store Performance](https://github.com/CoyoteStark25/Head_Rest_Ltd_Retail_Company_Analysis_Excel/assets/77941966/181bf14d-ab5d-4504-ab50-c8dff06ee227)
 
 ## Some calculated fields include
 Units:=sum([Units Sold])
