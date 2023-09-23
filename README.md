@@ -1,4 +1,5 @@
 # Head Rest Ltd Retail Company Performance Analysis
+![]( https://github.com/CoyoteStark25/Head_Rest_Ltd_Retail_Company_Analysis_Excel/blob/main/HeadRestBedPic.jpg)
 Our data belongs to a fictional retail company called Head Rest Ltd. Head Rest Ltd. sells beds and sleep-related accessories.The company has several stores, each of which has a home manager.Each store sells four brands of products, including our own brand, Head Rest Beds.Each brand offers products in the categories of mattresses,bed frames, pillows and bed linen Managers earn commissions based on sales and their time in service.
 
 _**Disclaimer**_: All datasets and reports do no represent any company, institution, or country, but just a dummy dataset to demonstrate the capabilities of Power Pivot in Excel.
