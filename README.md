@@ -1,19 +1,20 @@
 # Head Rest Ltd Retail Company Performance Analysis
 ![HeadRestBedPic](https://github.com/CoyoteStark25/Head_Rest_Ltd_Retail_Company_Analysis_Excel/assets/77941966/2d0151c0-dc3a-443a-af0b-9b5605dc3163)
 
-Our data belongs to a fictional retail company called Head Rest Ltd. Head Rest Ltd. sells beds and sleep-related accessories.The company has several stores, each of which has a home manager.Each store sells four brands of products, including our own brand, Head Rest Beds.Each brand offers products in the categories of mattresses,bed frames, pillows and bed linen Managers earn commissions based on sales and their time in service.
+The data belongs to a fictional retail company called Head Rest Ltd. Head Rest Ltd. sells beds and sleep-related accessories.The company has several stores, each of which has a home manager.Each store sells four brands of products, including our own brand, Head Rest Beds.Each brand offers products in the categories of mattresses,bed frames, pillows and bed linen Managers earn commissions based on sales and their time in service.
 
-_**Disclaimer**_: All datasets and reports do no represent any company, institution, or country, but just a dummy dataset to demonstrate the capabilities of Power Pivot in Excel.
+_**Disclaimer**_: All datasets and reports do not represent any company, institution, or country, but just a dummy dataset to demonstrate the capabilities of Power Pivot in Excel.
 
 ## Problem Statement
 
-- Which State had the most sales?
+- Which City had the most sales?
 - which product category had the most sales?
 - which product category had the most YoY Sales Growth?
 - which month of the year is sales at an all time high?
 - Which brand had the most sales?
 - Which brand had the most Yoy Sales Growth?
-- Which month had the most sales?
+- Which month had the least sales?
+- Which city sold the least no of units?
 
 ## Skills / Concepts Demonstrated
 The following Power BI Features were incorporated:
@@ -64,14 +65,11 @@ SalesPerDayYTD:=calculate([SalesPerDay],DATESYTD(Dim_Dates[Date]))
 
 
 ## Some insights from the Analysis
-1.	The gross profit margin for 2019 performed better than that of the previous year by a little over 1%.
-2.	Sales were at an all-time high in 2019 compared to that of the last two years.
-3.	They did not meet their target sales, though, missed it by roughly 0.2bn.
-4.	The State of Texas had the most sales of 216 million plus.
-5.	A further breakdown of sales by department and product group showed that clothing brought in the most sales overall.
-6.	For the past 3 years sales seem to see a big spike around November, specifically around the 22nd -24th 
-7.	Upon grouping the department and groups together to get deeper insights into the sales data, it showed that tools: Garage had the most Sales YOY Growth percentage.
-8.	Sales shared by group and department show that kitchen: Kitchen utensils had the most singular contribution to sales, although clothing had the most overall sales contribution.
-9.	The united states had more store outlets than Canada.
-10.	For the electronics category, Laptops seemed to have the most sales.
-11.	Women’s clothing sold more than male clothing.
+1.	Las Vegas had the most Sales
+2.	Mattress had the most sales
+3.	Mattress also had the most YoY Sales growth
+4.	Sales were at an all time high during the month of December, this was consistent across 2018 to 2019
+5.	Lux Bed was the brand with the most sales
+6.	Ocean Sleep had the most YoY sales growth
+7.	The month of june had the least sales and this was consistent across 2018 and 2019
+8.	Denver sold the least number of units.
